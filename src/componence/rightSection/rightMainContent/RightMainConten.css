@@ -1,5 +1,5 @@
 .right_main_content {
-  width: 926px;
+  width: 100;
   height: 538px;
   top: 80px;
   left: 185px;
@@ -469,7 +469,7 @@
 }
 
 .upcoming_task_container {
-  width: 95vw;
+  width: 458px;
   height: 179px;
   top: 226px;
   left: 674px;
@@ -511,7 +511,7 @@
   gap: 10px;
 }
 .upcoming_evens_container {
-  width: 100vw;
+  width: 458px;
   height: 179px;
   top: 226px;
   left: 674px;
@@ -525,6 +525,17 @@
 }
 .chart1_container {
   position: relative;
+}
+.upcoming_net_container {
+  width: 458px;
+  height: 179px;
+  top: 226px;
+  left: 201px;
+  gap: 0px;
+  opacity: 0px;
+  border: solid 1px #7194d9;
+  padding: 5px;
+  margin-top: 20px;
 }
 
 .chart1_rate_container {
@@ -555,7 +566,7 @@
 .chart1_ver_value_container30,
 .chart1_ver_value_container20,
 .chart1_ver_value_container10,
-.chart1_ver_value_container0{
+.chart1_ver_value_container0 {
   width: 11px;
   height: 12px;
   top: 115px;
@@ -632,7 +643,7 @@
   left: 135px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .right_main_content {
     width: 100vw;
     height: 100%;
@@ -655,7 +666,9 @@
     flex-direction: column;
     gap: 10px;
   }
-  .request_for_purchase_container {
+  .request_for_purchase_container,
+  .upcoming_task_container,
+  .upcoming_net_container {
     width: 94vw;
     height: 200px;
     top: 226px;
@@ -753,5 +766,17 @@
     padding: 5px;
     border: solid 1px #7194d9;
     margin-top: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 930px) {
+  .chart_scetion_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .right_main_content {
+   
+    height: 100%;
+    
   }
 }

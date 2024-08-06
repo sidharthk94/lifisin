@@ -271,7 +271,7 @@ const RightMainContent = () => {
           </div>
         </div>
 
-        <div className="upcoming_task_container">
+        <div className="upcoming_net_container">
           <div className="upcoming_task_text_container">
             <p className="upcoming_task_text">Net Income</p>
           </div>

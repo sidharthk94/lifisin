@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  width: 926px;
+  width: 100%;
   border: solid 1px #7194d9;
   box-sizing: border-box;
   padding: 5px;
@@ -243,5 +243,20 @@
   }
   .hambruger_container {
     display: block;
+  }
+  .search_container {
+    width: 150px;
+    height: 18px;
+    top: 19px;
+    left: 201px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #ffffff;
+    border: solid 1px #b1b7b9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

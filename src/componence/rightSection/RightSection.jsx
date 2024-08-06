@@ -5,7 +5,7 @@ import RightMainContent from './rightMainContent/RightMainContent'
 
 const RightSection = () => {
   return (
-    <div>
+    <div style={{width:"100%"}}>
         <RightTop/>
         <RightNav/>
         <RightMainContent/>
