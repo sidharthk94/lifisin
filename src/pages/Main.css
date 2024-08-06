@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    gap: 10px;
+}
+
+.left_section{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .left_section{
+        display: none;
+    }
+  }

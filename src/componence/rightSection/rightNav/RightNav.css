@@ -1,0 +1,29 @@
+.right_nav_main {
+  /* width: 500px; */
+  height: 22px;
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+}
+.dashboard_container {
+  width: 57px;
+  height: 13px;
+  gap: 0px;
+  opacity: 0px;
+}
+.dashboard_text {
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13.31px;
+  text-align: center;
+}
+@media screen and (max-width: 480px) {
+  .right_nav_main {
+    /* width: 100vw; */
+    height: 22px;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+  }
+}

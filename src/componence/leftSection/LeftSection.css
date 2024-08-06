@@ -1,0 +1,137 @@
+.leftSection_main {
+  width: 176px;
+}
+.cmpny_logo_container {
+  height: 50px;
+  width: 176px;
+  background-color: white;
+  border: solid 1px #7194d9;
+}
+.cmpnt_logo {
+  width: 136px;
+  height: 45px;
+  top: 8px;
+  left: 26px;
+  gap: 0px;
+  opacity: 0px;
+}
+.create_container {
+  background-color: #304384;
+  width: 176px;
+  height: 26px;
+  top: 57px;
+  left: 4px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create_text {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: center;
+  width: 176px;
+  height: 15px;
+  left: 4px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+}
+.crm_container {
+  width: 176px;
+  height: 26px;
+  top: 84px;
+  left: 4px;
+  gap: 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: solid 1px #7194d9;
+}
+.crm_payent {
+  width: 16px;
+  height: 20px;
+  top: 88px;
+  left: 14px;
+  padding: 3.33px 0.67px 3.33px 0.67px;
+  gap: 0px;
+  opacity: 0px;
+}
+.crm_text {
+  width: 140px;
+  height: 13px;
+  top: 6px;
+  left: 36px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13.31px;
+  text-align: left;
+  color: #585859;
+}
+.array_container {
+  width: 176px;
+  height: 26px;
+  top: 110px;
+  left: 4px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: solid 1px #7194d9;
+}
+.array_text {
+  width: 140px;
+  height: 13px;
+  top: 6px;
+  left: 36px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13.31px;
+  text-align: left;
+}
+.more_items_container {
+  height: 50px;
+  width: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #7194d9;
+  gap: 10px;
+  background-color: white;
+}
+.more_items_icon {
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 13.67px;
+  gap: 0px;
+  opacity: 0px;
+  color: #405dc5;
+}
+.more_items_text {
+  width: 144px;
+  height: 13px;
+  top: 5px;
+  left: 37px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13.31px;
+  text-align: left;
+  color: #405dc5;
+}
