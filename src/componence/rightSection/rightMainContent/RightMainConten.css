@@ -183,6 +183,7 @@
 }
 .chart_scetion_container {
   display: flex;
+ justify-content: space-evenly;
   gap: 20px;
 }
 /* table */
@@ -508,6 +509,7 @@
 .table_wrapper,
 .three {
   display: flex;
+  justify-content: space-evenly;
   gap: 10px;
 }
 .upcoming_evens_container {
