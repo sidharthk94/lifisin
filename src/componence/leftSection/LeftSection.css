@@ -1,5 +1,7 @@
 .leftSection_main {
   width: 176px;
+  height: 100vh;
+  border: solid 1px #7194d9;
 }
 .cmpny_logo_container {
   height: 50px;
